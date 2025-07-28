@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Justice</title>
     <!-- tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- main css -->
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <nav class="main-nav flex justify-evenly items-center py-12">
+        <img src="./images/logo2.png" alt="justice" class="logo" />
+        <ul class="nav-menus flex text-[1rem] gap-[30px]">
+          <li class="nav-menu"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-menu"><a href="#" class="nav-link">Services</a></li>
+          <li class="nav-menu"><a href="#" class="nav-link">Cases</a></li>
+          <li class="nav-menu"><a href="#" class="nav-link">Blog</a></li>
+          <li class="nav-menu"><a href="#" class="nav-link">Contact Us</a></li>
+        </ul>
+        <button class="btn">Free Consultation</button>
+      </nav>
+      <div
+        class="banner-container text-center py-26 bg-[url(./images/banner.png)] bg-cover bg-center"
+      >
+      <div class="banner bg-[url(./images/Rectangle 5.png) bg-cover bg-center]">
+        <h1 class="banner-title text-7xl font-extrabold leading-20">
+            We Provide Effective <br> Legal Solutions
+          </h1>
+          <p class="banner-subtitle text-[1rem] leading-7 my-8 w-[679px] mx-auto">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+          <input
+            type="search"
+            class="search-area py-[20px] rounded-[8px] bg-white w-[500px] mr-3 px-6" placeholder="Search your services"
+          />
+          <button class="btn">Search</button>
+      </div>
+      </div>
+    </header>
+  </body>
 </html>

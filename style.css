@@ -1,0 +1,46 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* common css */
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+p,
+.nav-link {
+  color: rgba(112, 112, 112, 1);
+  font-family: "Poppons";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgba(65, 64, 64, 1);
+  font-family: "EB Garamond";
+}
+
+.btn{
+    color: white;
+    background: #B68C5A;
+    font-size:1.12rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    padding: 20px 30px;
+    border-radius: 8px;
+
+}
+
+/* header */
+
+.banner-title{
+    color: white;
+}
+
+.banner-subtitle{
+    color: rgba(231, 231, 231, 1);
+}
